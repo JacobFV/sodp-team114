@@ -1,5 +1,6 @@
 body {
     margin-top: 0;
+    margin-bottom: 0;
     background-color: rgb(56, 58, 82);
     text-align: center;
 }
@@ -72,12 +73,11 @@ body {
 
 p {
     overflow-wrap: break-word;
-    max-width: 1000px;
     white-space: pre-wrap;
     text-align: left;
     padding-left: 40px;
     padding-right: 40px;
-    padding-top: 20px;
+    padding-top: 0;
     padding-bottom: 20px;
     color: rgb(32, 35, 48);
     font-family: Trebuchet MS;
@@ -88,10 +88,34 @@ p {
 
 h3 {
     text-align: left;
-    padding: 40px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    padding-top: 30px;
     font-family: 'Oswald', sans-serif;
     color: rgb(56, 58, 82);
     font-size: 40px;
     margin: 0;
-    padding-bottom: 0;
+}
+
+footer * {
+    color: white;
+}
+
+footer ol {
+    font-family: 'Trebuchet MS', sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+footer ol * {
+    max-width: 1102px;
+    white-space: pre-line;
+}
+
+footer {
+    background-color: rgb(32, 35, 48);
+    text-align: left;
 }
