@@ -1,0 +1,27 @@
+This is file corona_tweets_01.csv 
+Mean: -0.3340493853447231, Median: -0.3333333333333333, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_02.csv 
+Mean: -0.2980311574796044, Median: -0.25, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_03.csv 
+Mean: -0.32890260010447264, Median: -0.3, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_04.csv 
+Mean: -0.3331845231916295, Median: -0.30000000000000004, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_05.csv 
+Mean: -0.26355796777622426, Median: -0.2333333333333333, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_06.csv 
+Mean: -0.2756087303280582, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_07.csv 
+Mean: -0.2839213194760172, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_08.csv 
+Mean: -0.30450226393269464, Median: -0.25, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_09.csv 
+Mean: -0.30970065211674563, Median: -0.22083333333333333, Max: -0.05, Min: -1.0 
+ 
