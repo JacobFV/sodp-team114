@@ -168,3 +168,7 @@ span {
 #misinformation-sources img {
     max-width: 500px;
 }
+
+footer img {
+    padding-left: 40px;
+}
