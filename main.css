@@ -131,7 +131,7 @@ footer {
 }
 
 h5 a {
-    font-size: 28px;
+    font-size: 24px;
     margin: 0;
     color: rgb(56, 58, 82);
     font-family: 'Oswald', sans-serif;
@@ -145,6 +145,7 @@ h5 a {
 
 h5 {
     margin: 0;
+    padding-bottom: 5px;
 }
 
 span {
@@ -152,6 +153,7 @@ span {
     font-family: 'Trebuchet MS', sans-serif;
     color: rgb(32, 35, 48);
     white-space: pre-wrap;
+    margin-top: 4px;
 }
 
 .tweet-sentiment {
