@@ -32,7 +32,7 @@
                 </div>
                 <div class="paragraph" id="method">
                     <h3>Methodology</h3>
-                    <p>The dataset used to identify tweet sentiments towards the COVID-19 vaccination was collected over 24 hours in March 2020, sourced from the IEEE DataPort [5]. When including both positive and negative sentiment data points, the data is normally distributed, indicating a relatively neutral viewpoint across the Twitter data. However, the numerous outliers indicate that perception of vaccine-related information may land in the extremes of the negative and positives. </p>
+                    <p>The dataset used to identify tweet sentiments towards the COVID-19 vaccination was collected over 24 hours in March 2020, sourced from the IEEE DataPort [5]. The sentiment is ordered from -1 to 1, with -1 being very negative and 1 being very positive. When including both positive and negative sentiment data points, the data is normally distributed, indicating a relatively neutral viewpoint across the Twitter data. However, the numerous outliers reveal that the perception of vaccine-related information may land in the extremes of negative and positive sentiment. </p>
                     <img alt="full_distribution" src="/images/full_distribution.png">
                     <p>To further analyze the extreme tweets in our dataset, one can remove tweets with a sentiment between -0.05 and +0.05, indicating neither strong support nor opposition to the vaccine. With this adjustment, the distribution has a more explicit focus on significantly positive and significantly negative tweets.</p>
                     <img alt="normal_distribution" src="/images/normal_distribution.png">
@@ -41,8 +41,8 @@
                 </div>
                 <div class="paragraph" id="negative-sentiment">
                     <h3>Negative Sentiment towards the COVID-19 Vaccine Persists</h3>
-                    <p>Isolating the Twitter data for negative sentiment, the median negative sentiment towards the vaccine lies above the mean at almost all points in time, indicating a skew towards more extreme stances. However, the trend shows a generally stable level of anti-vaccination rhetoric on Twitter.</p>
-                    <img alt="mean_median_sentiment" src="/images/mean_median_sentiment.png">  
+                    <p>Isolating the Twitter data for negative sentiment, the median negative sentiment towards the vaccine lies above the mean at almost all points in time, indicating a skew towards more extreme stances. However, the trend shows a generally stable level of anti-vaccination rhetoric on Twitter.</p> 
+                    <iframe title="mean_and_median" width="1000" height="618" seamless frameborder="0" scrolling="no" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vSmQWAVZEnDNrdbnMSOVIUnQHzMMfP6v7w90GHaHIZGXkdhcUImQyc-3ozF85G3dxIq6XW9VTtPJXmE/pubchart?oid=357445908&amp;format=interactive"></iframe>
                 </div>
                 <div class="paragraph" id="misinformation-sources">
                     <h3>Points of Misinformation behind the Distrust</h3>
@@ -103,7 +103,12 @@
                     <li>Stolberg, Sheryl Gay. "A New Survey Finds That about a Quarter of Americans Don't Want to Get Vaccinated." <em>The New York Times</em>, The New York Times, 15 Dec. 2020, <a href="https://www.nytimes.com/2020/12/15/us/a-new-survey-finds-that-about-a-quarter-of-americans-dont-want-to-get-vaccinated.html" target="_blank">www.nytimes.com/2020/12/15/us/a-new-survey-finds-that-about-a-quarter-of-americans-dont-want-to-get-vaccinated.html</a>. </li>
                     <br>
                     <li>Lazarus, Jeffrey V., et al. "A Global Survey of Potential Acceptance of a COVID-19 Vaccine."" <em>Nature News</em>, Nature Publishing Group, 20 Oct. 2020, <a href="https://www.nature.com/articles/s41591-020-1124-9" target="_blank">www.nature.com/articles/s41591-020-1124-9</a>. </li>
+                    <br>
+                    <li></li>
+                    <br>
+                    <li></li>
                 </ol>
+                <h3>Appendix</h3>
             </footer>
         </div>
     </body>
