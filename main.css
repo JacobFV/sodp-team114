@@ -123,3 +123,33 @@ footer {
     background-color: rgb(32, 35, 48);
     text-align: left;
 }
+
+#resources ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+}
+
+h5 a {
+    font-size: 28px;
+    margin: 0;
+    color: rgb(56, 58, 82);
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 58, 82);
+    display: inline-block;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+}
+
+span {
+    font-size: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(32, 35, 48);
+    white-space: pre-wrap;
+}
