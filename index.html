@@ -15,7 +15,7 @@
                 </div>
                 <div class="banner">
                     <h1>Identifying COVID-19 Misinformation in order to Combat it</h1>
-                    <h2>Twitter data highlights key pandemic misconceptions that could be key in ensuring an informed public</h2>
+                    <h2>Twitter data highlights key pandemic misconception that could be key in ensuring an informed public</h2>
                 </div>
                 <div class="by-line">
                     <span>Masaya Heywood, Kopal Mathur, Teddy Sandler, Jenna Simon, and Jacob Valdez</span>
@@ -24,20 +24,42 @@
             <div class="article">
                 <div class="paragraph" id="intro">
                     <h3>An "Infodemic"</h3>
-                    <p>The World Health Organization coined the term "Infodemic" to represent the spread of inaccurate or incorrect information during a pandemic outbreak [1]. With the spread of misinformation over the past year, there is growing concern that people will distrust the advice of legitimate sources and engage in activity that could be detrimental to general health and public well-being.</p>
-                    <p>With the overwhelming spread of inaccurate information regarding the pandemic on public platforms (such as social media), there is an increasing need to be able to identify prevalent false statements so that they can be countered with facts. By analyzing Twitter data since March 2020, we are able to identify the rise and fall of negative sentiments towards the COVID-19 vaccine, and the most prevalent anti-vaccination beliefs that are likely to contribute to these stances. By isolating these beliefs, public officials can focus efforts on countering the specific pieces of misinformation that are likely to have the most harmful effect on public health.</p>
+                    <p>A sea of information has become readily available through the internet, making it is easy to be overwhelmed by the constant stream of conflicting information thrown at readers. With the spread of pandemic-centric misinformation over the past year, there is growing concern that people will distrust the legitimate sources' advice and engage in activities that could be detrimental to general health and public well-being. The severity of this issue allowed for the word "infodemic" to resurface, a term The World Health Organization allocated to represent the spread of harmful misinformation during a pandemic [1]. </p>
+                    <p>As reported by the New York Times in December 2020, more than 25% of Americans "probably or definitely would not take a coronavirus vaccine" [2]. A June 2020 survey by Nature Medicine shows significant fluctuations in citizens' willingness to take the vaccine when broken down by country. 88.62% of Chinese citizens said they would take the vaccine, while only 54.85% of Russian citizens would be willing to do so [3].</p>
+                    <p>Data collected from the social media platform Twitter reflects this continued COVID-19 vaccine hesitancy. Sentiment analysis of tweets with the "COVIDVaccine" hashtag since March 2020 show continuous negative feelings towards the immunization initiative.</p>
+                    <p>To combat the overwhelming spread of inaccurate information regarding the pandemic on public platforms (such as social media), our goal is to identify the most prevalent false statements about the vaccine so that they can be purposefully countered with data-driven factual information.</p>
+                    <p>Here we identify the continued trend of negative sentiments towards the COVID-19 vaccine using Twitter data. The most prevalent anti-vaccination beliefs are likely to emerge from analyzing tweet content, hashtags, and user engagement, since the official declaration of the COVID-19 pandemic in March 2020 [4]. Isolating these beliefs allows public officials to focus efforts on combating the specific pieces of misinformation that may have the most harmful effect on public health.</p>
+                </div>
+                <div class="paragraph" id="method">
+                    <h3>Methodology</h3>
+                    <p>The dataset used to identify Twitter statement sentiments towards the COVID-19 vaccination was collected over 24 hours in March 2020, sourced from the IEEE DataPort [5]. When including both positive and negative sentiment data points, the data is normally distributed, indicating a relatively neutral viewpoint across the Twitter data. However, the numerous outliers indicate that perception of vaccine-related information may land in the extremes of the negative and positives. </p>
+                    <img alt="full_distribution" src="/images/full_distribution.png">
+                    <p>To further analyze the extreme tweets in our dataset, one can remove tweets with a sentiment between -0.05 and +0.05, indicating neither strong support nor opposition to the vaccine. With this adjustment, the distribution has a more explicit focus on significantly positive and significantly negative tweets.</p>
+                    <img alt="normal_distribution" src="/images/normal_distribution.png">
+                    <p>Finally, to focus on tweets that oppose vaccination, the data can be filtered only to observe negative sentiment posts. Here, the data has a strong left skew. This may suggest that the majority of negative tweets show moderate to significant negative sentiment. However, there is a significant outlier population representing extreme opposition to the vaccine.</p>
+                    <img alt="negative_distribution" src="/images/negative_distribution.png">
                 </div>
                 <div class="paragraph" id="negative-sentiment">
                     <h3>Negative Sentiment towards the COVID-19 Vaccine Persists</h3>
-                    <p>As reported by the New York Times in December 2020, more than 25% of Americans "probably or definitely would not take a coronavirus vaccine" [2]. A June 2020 survey by Nature Medicine shows significant fluctuations in citizens' willingness to take the vaccine when broken down by country. 88.62% of Chinese citizens said they would take the vaccine, while only 54.85% of Russian citizens would be willing to do so [3].</p>
-                    <div class="tweet-sentiment">
-                        <p>Data collected from the social media platform Twitter reflects this continued hesitancy to trust a COVID-19 vaccination. Sentiment analysis of tweets with the "COVIDVaccine" hashtag since March 2020 show continuous negative feelings towards the immunization.</p>
-                        <span>Data Viz Here</span>
-                    </div>
-                    </div>
+                    <p>Isolating the Twitter data for negative sentiment, The median negative sentiment towards the vaccine lies above the mean at almost all points in time, indicating a skew towards more extreme stances. However, the trend shows a generally stable level of anti-vaccination rhetoric on Twitter.</p>
+                    <img alt="mean_median_sentiment" src="/images/mean_median_sentiment.png">  
+                </div>
                 <div class="paragraph" id="misinformation-sources">
-                    <h3>Potential Misinformation behind the Distrust</h3>
-                    <p></p>
+                    <h3>Points of Misinformation behind the Distrust</h3>
+                    <p>The key question remains: What pieces of misinformation are likely to be contributing to this continued negative sentiment?</p>
+                    <div class="bert">
+                        <div>
+                            <br>
+                            <p>This question can be answered partially by clustering negative-sentiment tweets based on their semantic content. These clusters are formed by using a BERT language model to construct vector representations of each tweet. Every tweet is automatically converted into vectors to allow a machine-learning algorithm to sort the data. The resulting vectors are shown in the following 3-D representation, where each colored cluster of tweets represents a post's semantics.</p>
+                        </div>
+                        <img alt="bert_model" src="/images/BERT_model.png">
+                    </div>
+                    <p>Initial clustering shows relatively uniform cluster sizes, confirming that COVID-19 related tweets do cluster semantically. The full clustered textual data, including the actual tweet content, is included in the Appendix.</p>
+                    <p>This approach to investigating the data led to unintended consequences. Some clusters form a central idea that arguably has nothing in common with COVID. For example, Cluster 0 in the Appendix appears to wander around thoughts about different countries without necessarily centering on vaccination rollouts, lockdowns, or other COVID public policy. Although our approach has the advantage of semantically stratifying the data, only a few representative samples need to be taken.</p>
+                    <p>For example, in Cluster 6, many tweets focus on a lack of trust for the vaccine due to people doubting the trial and development process. Many show displeasure in what they feel is a lack of transparency in the vaccine research, and in that the vaccine is too hastily developed to be trusted. This indicates that general vaccine distrust may result from people not understanding the vaccine and its development process. The rumors of the harms of the vaccine are more general noise adding to the distrust than they are the root cause of it.</p>
+                </div>
+                <div class="paragraph" id="discussion">
+                    <h3>Discussion</h3>
                 </div>
                 <div class="paragraph" id="resources">
                     <h3>Additional Resources for Fact Checking and Fighting Misinformation</h3>

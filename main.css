@@ -156,7 +156,15 @@ span {
     margin-top: 4px;
 }
 
-.tweet-sentiment {
+.bert {
     display: grid;
     grid-template-columns: 1fr 1fr;
+}
+
+.paragraph img {
+    max-width: 1100px;
+}
+
+#misinformation-sources img {
+    max-width: 500px;
 }
