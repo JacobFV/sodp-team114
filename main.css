@@ -153,3 +153,8 @@ span {
     color: rgb(32, 35, 48);
     white-space: pre-wrap;
 }
+
+.tweet-sentiment {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
