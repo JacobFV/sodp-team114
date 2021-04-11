@@ -33,11 +33,11 @@
                 <div class="paragraph" id="method">
                     <h3>Methodology</h3>
                     <p>The dataset used to identify tweet sentiments towards the COVID-19 vaccination was collected over 24 hours in March 2020, sourced from the IEEE DataPort [5]. The sentiment is ordered from -1 to 1, with -1 being very negative and 1 being very positive. When including both positive and negative sentiment data points, the data is normally distributed, indicating a relatively neutral viewpoint across the Twitter data. However, the numerous outliers reveal that the perception of vaccine-related information may land in the extremes of negative and positive sentiment. </p>
-                    <img alt="full_distribution" src="/images/full_distribution.png">
+                    <img alt="full_distribution" src="/images/unstratified.png">
                     <p>To further analyze the extreme tweets in our dataset, one can remove tweets with a sentiment between -0.05 and +0.05, indicating neither strong support nor opposition to the vaccine. With this adjustment, the distribution has a more explicit focus on significantly positive and significantly negative tweets.</p>
-                    <img alt="normal_distribution" src="/images/normal_distribution.png">
+                    <img alt="normal_distribution" src="/images/non-central.png">
                     <p>Finally, to focus on tweets that oppose vaccination, the data can be filtered only to observe negative sentiment posts. Here, the data has a strong left skew. This may suggest that the majority of negative tweets show moderate to significant negative sentiment. However, there is a significant outlier population representing extreme opposition to the vaccine.</p>
-                    <img alt="negative_distribution" src="/images/negative_distribution.png">
+                    <img alt="negative_distribution" src="/images/negative-filtered.png">
                 </div>
                 <div class="paragraph" id="negative-sentiment">
                     <h3>Negative Sentiment towards the COVID-19 Vaccine Persists</h3>
