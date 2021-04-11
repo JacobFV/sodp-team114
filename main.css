@@ -57,12 +57,12 @@ body {
 }
 
 .banner h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .banner h2 {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
     padding-bottom: 10px;
 }
@@ -84,6 +84,10 @@ p {
     font-size: 20px;
     margin: 0;
     line-height: 1.5;
+}
+
+p a {
+    color: rgb(32, 35, 48);
 }
 
 h3 {
