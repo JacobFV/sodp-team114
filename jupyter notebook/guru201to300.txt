@@ -1,0 +1,66 @@
+This is file corona_tweets_201.zip 
+Mean: -0.2927679117008923, Median: -0.225, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_202.zip 
+Mean: -0.28781098703736196, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_203.zip 
+Mean: -0.306916432427071, Median: -0.20357142857142854, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_204.zip 
+Mean: -0.2644859135166274, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_205.zip 
+Mean: -0.27602113905303566, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_206.zip 
+Mean: -0.2799222854039741, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_207.zip 
+Mean: -0.28487750802993633, Median: -0.20000000000000004, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_208.zip 
+Mean: -0.29363149359486396, Median: -0.20833333333333331, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_209.zip 
+Mean: -0.27587912476472914, Median: -0.20185185185185187, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_210.zip 
+Mean: -0.27914230549066843, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_211.zip 
+Mean: -0.290940587207317, Median: -0.225, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_212.zip 
+Mean: -0.2993116982002902, Median: -0.21428571428571427, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_213.zip 
+Mean: -0.2763844601337383, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_214.zip 
+Mean: -0.2598455338239293, Median: -0.18787878787878784, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_215.zip 
+Mean: -0.2864198342864598, Median: -0.2125, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_216.zip 
+Mean: -0.27622568695020844, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_217.zip 
+Mean: -0.26515536345621976, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_218.zip 
+Mean: -0.2728169534240599, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_219.zip 
+Mean: -0.2641005454666708, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_220.zip 
+Mean: -0.2671264490652528, Median: -0.2, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_221.zip 
+Mean: -0.3016057768666465, Median: -0.23888888888888885, Max: -0.05, Min: -1.0 
+ 
+This is file corona_tweets_222.zip 
+Mean: -0.2753184399001562, Median: -0.2055555555555556, Max: -0.05, Min: -1.0 
+ 

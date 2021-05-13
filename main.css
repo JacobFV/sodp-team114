@@ -57,12 +57,12 @@ body {
 }
 
 .banner h1 {
-    font-size: 60px;
+    font-size: 45px;
 }
 
 .banner h2 {
     font-weight: 300;
-    font-size: 35px;
+    font-size: 30px;
     font-style: italic;
     padding-bottom: 10px;
 }
@@ -86,6 +86,10 @@ p {
     line-height: 1.5;
 }
 
+p a {
+    color: rgb(32, 35, 48);
+}
+
 h3 {
     text-align: left;
     padding-left: 40px;
@@ -94,7 +98,7 @@ h3 {
     padding-top: 30px;
     font-family: 'Oswald', sans-serif;
     color: rgb(56, 58, 82);
-    font-size: 40px;
+    font-size: 32px;
     margin: 0;
 }
 
@@ -118,4 +122,53 @@ footer ol * {
 footer {
     background-color: rgb(32, 35, 48);
     text-align: left;
+}
+
+#resources ul {
+    list-style-type: none;
+    text-align: left;
+    margin: 0;
+}
+
+h5 a {
+    font-size: 20px;
+    margin: 0;
+    color: rgb(56, 58, 82);
+    font-family: 'Oswald', sans-serif;
+    font-style: italic;
+    position: relative;
+    text-decoration: underline;
+    text-decoration-color: rgb(56, 58, 82);
+    display: inline-block;
+    padding: 0;
+}
+
+h5 {
+    margin: 0;
+    padding-bottom: 5px;
+}
+
+span {
+    font-size: 16px;
+    font-family: 'Trebuchet MS', sans-serif;
+    color: rgb(32, 35, 48);
+    white-space: pre-wrap;
+    margin-top: 4px;
+}
+
+.bert {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.paragraph img {
+    max-width: 1100px;
+}
+
+#misinformation-sources img {
+    max-width: 500px;
+}
+
+footer img {
+    padding-left: 40px;
 }
